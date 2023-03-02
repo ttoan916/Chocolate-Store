@@ -1,0 +1,31 @@
+body{
+    background-color: #592411;
+}
+.usersPage{
+    margin:10px;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    text-align: center;
+    height:400px;
+}
+
+.profileImg {
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.profileImg img {
+    height: 100%;
+    vertical-align: middle;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 100%;
+}
+.name {
+    display: flex;
+    flex-direction: column;
+    text-align: inherit;
+    margin-top:1%;
+}

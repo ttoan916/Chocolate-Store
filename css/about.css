@@ -1,0 +1,124 @@
+*{
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+}
+
+
+
+/*End of nav */
+/*Start of search */
+/*Search Filter */
+#productList{
+    list-style-type: none;
+    border: 1px solid black;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    right: 0;
+    width: 500px;
+    display: none;
+}
+
+
+
+.products{
+    border-bottom: 1px solid black;
+    padding:10px;
+
+}
+
+.products:hover{
+    background: #eee;
+}
+
+.productLink{
+    text-decoration: none;
+    color: black;
+}
+
+.searchImages{
+    height:100px;
+    width: 100px;
+    vertical-align: middle;
+
+}
+
+
+/*End of search */
+body{
+    background-color: #592411;
+
+}
+
+.aboutPage{
+    color:#592411;
+    margin:10px;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h2{
+    text-align: center;
+    padding-bottom:10px;
+
+    background-color: white;
+    flex: 0 0 100%;
+}
+
+h3{
+    flex: 0 0 100%;
+    text-align: start;
+}
+
+.about{
+    width:100%;
+    display: flex;
+}
+
+.profiles{
+    display: flex;
+    flex-wrap: wrap;
+    width:50%;
+}
+
+.profilePic{
+    width:250px;
+    height: auto ;
+    border-radius: 50%;
+    margin:10px;
+}
+
+.description{
+    width:50%;
+    float:right;
+    font-weight: 700;
+    font-size: large;
+    border:1px solid;
+    box-shadow: 5px 10px;
+    border-radius: 10px;
+    position:relative;
+    height:100%;
+}
+
+.introduction{
+    text-align: center;
+    padding:5px;
+}
+
+#meltedChocolate{
+    width:100%;
+    border-radius: 10px;
+}
+
+figure{
+    width:50%;
+}
+
+a{
+    text-decoration: none;
+}

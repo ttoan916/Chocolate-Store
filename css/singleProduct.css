@@ -1,0 +1,149 @@
+.container {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+.image img {
+    width: 500px;
+    border: #555 1px solid;
+  }
+.infoBx {
+    margin-left: 60px;
+}
+.infoBx p {
+    width: 700px;
+    margin-bottom: 20px;
+  }
+  .location {
+    color: #888;
+    font-size: 15px;
+  }
+.infoBx h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.infoBx h3 {
+    font-size: 23px;
+    margin-bottom: 20px;
+  }
+  #count {
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+  .quantity {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  .quantity button {
+    width: 35px;
+    height: 35px;
+    outline: none;
+    border-style: none;
+    font-size: 10px;
+    background-color: #ffcf5c;
+  }
+  .changeQuantity {
+    cursor: pointer;
+  }
+  .quantity input {
+    margin: 0 30px;
+    font-size: 20px;
+    font-weight: 400;
+    width: 10%;
+    text-align: center;
+  }
+.addToCart {
+    background-color: #ffcf5c;
+    line-height: 55px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 1px;
+    cursor: pointer;
+}
+.addToCart:hover{
+    background-color: white;
+    border: 1px solid #ffcf5c;
+    cursor: pointer;
+}
+.ratings {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.reviews {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 50px;
+  width: 1200px;
+}
+.box {
+  width: 500px;
+  box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+  background-color: #fff;
+  padding: 20px;
+  margin: 15px;
+  cursor: pointer;
+}
+.boxTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.profile {
+  display: flex;
+  align-items: center;
+}
+.profileImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+.profileImg img {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  object-fit: cover;
+  object-position: center;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+  text-align: inherit;
+}
+.profile .name strong {
+  color: #3d3d3d;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+.profile .name span {
+  color: #979797;
+  font-size: 0.8rem;
+}
+.stars {
+  color: #f9d71c;
+}
+.clientComment {
+  font-size: 0.9rem;
+  color: #4b4b4b;
+}
+

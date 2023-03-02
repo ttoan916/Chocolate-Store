@@ -1,0 +1,85 @@
+body{
+    background-color: #592411;
+}
+.myAccount{
+    display: flex;
+    background: white;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.login{
+    width:49%;
+    background-color: rgba(237, 226, 154,0.7);
+}
+.register{
+    flex-grow:1;
+    background-color: rgba(237, 226, 154,0.7);
+    margin-left:1%;
+}
+.form{
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.formEntryLabel{
+    display: block;
+    margin: 10px;
+}
+
+.formEntryInput{
+    padding: 12px 20px;
+    width: 75%;
+}
+.eye {
+    height: 20px;
+    width: auto;
+    margin-left: -5%;
+    margin-bottom: -1%;
+    cursor: pointer;
+}
+.otherGroup {
+    margin: 10px 0px;
+    width: 80%;
+}
+.rememberCheckbox {
+    display: inline-block;
+    width: auto;
+    margin-left: 0px;
+    cursor: pointer;
+  }
+.rememberLabel {
+    display: inline-block;
+}
+  .forgot {
+    float: right;
+  }
+form:invalid button {
+    opacity: 0.5;
+    pointer-events: none;
+}
+.access {
+    width: 80%;
+    margin: 20px 0px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #A1683A;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+input:focus:invalid:not(#searchInput){
+    box-shadow:  0 0 2px 2px red;
+    outline: none;
+}
+input:focus:valid:not(#searchInput){
+    box-shadow:  0 0 2px 2px green;
+    outline: none;
+
+}
+.error{
+    color:red;
+    padding-top:5px;
+}

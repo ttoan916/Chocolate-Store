@@ -1,0 +1,135 @@
+body{
+    background-color: #592411;
+}
+.question{
+    border-bottom: 1px solid #592411;
+    margin-bottom:3px;
+    background-color: #e5d6bf;
+    padding: 10px;
+    margin-top:0px;
+    display: block;
+    width: 100%;
+    cursor:pointer;
+    font-weight: 500;
+    text-align: start;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.answer{
+    font-weight: normal;
+    text-align: start;
+    background-color: white;
+    width:102.5%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+.question::after{
+    content: '+';
+    text-align: right;
+    float: right;
+}
+
+
+
+.container{
+    margin:10px;
+    margin-right:45px;
+}
+
+
+
+
+/*FAQ*/
+.faqPage{
+    color:#592411;
+    margin:10px;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.shipping{
+    float:left;
+    background-color: #c8a877;
+    border-radius: 10px;
+    width: 30%;
+    border:2px solid #592411;
+}
+
+.chocolate{
+    display: inline-block;
+    margin:0 auto;
+    background-color: #c8a877;
+    border-radius: 10px;
+    width: 30%;
+    border:2px solid #592411;
+
+}
+
+.payment{
+    float:right;
+    background-color: #c8a877;
+    border-radius: 10px;
+    width: 30%;
+    border:2px solid #592411;
+
+}
+
+h3{
+    padding:20px;
+    width:100%;
+    text-align: start;
+}
+h2{
+    text-align: center;
+    padding-bottom:10px;
+
+    background-color: white;
+    flex: 0 0 100%;
+}
+
+
+.faqPage .answer{
+    overflow: hidden;
+    height: 0;
+    transition: 0.5s;
+}
+
+
+.faqPage .shipping .container.active  .answer {
+    padding:20px 5px;
+    height:fit-content;
+
+}
+.faqPage .chocolate .container.active  .answer {
+    padding:20px 5px;
+    height:fit-content;
+}
+
+.faqPage .payment .container.active  .answer {
+    padding:20px 5px;
+    height:fit-content;
+}
+
+.faqPage .container.active .question::after {
+    content: '-';
+    text-align: right;
+    float: right;
+}
+
+
+
+.icons{
+    height: 40px;
+    width: 40px;
+    vertical-align: middle;
+}
